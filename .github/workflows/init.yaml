@@ -17,7 +17,7 @@ jobs:
       - name: install libraries
         run: |
           cd function
-          python -m ensurepip
+          python --version
           python -m pip install --upgrade pip
           pip install -r requirements.txt -t
 
